@@ -6,8 +6,8 @@ class Bill_App:
     def __init__(self,root):
         self.root = root
         self.root.geometry("1300x700+0+0")
-        self.root.maxsize(width = 1280,height = 700)
-        self.root.minsize(width = 1280,height = 700)
+        self.root.maxsize(width = 1300,height = 700)
+        self.root.minsize(width = 1300,height = 700)
         self.root.title("Bulla's Billing System")
         
         #====================Variables========================#
@@ -178,7 +178,7 @@ class Bill_App:
 
         #===================Bill Aera================#
         F3 = Label(self.root,bd = 10,relief = GROOVE)
-        F3.place(x = 960,y = 180,width = 325,height = 380)
+        F3.place(x = 960,y = 180,width = 350,height = 380)
         #===========
         bill_title = Label(F3,text = "Bill Area",font = ("Lucida",13,"bold"),bd= 7,relief = GROOVE)
         bill_title.pack(fill = X)
