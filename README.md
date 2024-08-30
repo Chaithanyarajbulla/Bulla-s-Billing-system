@@ -33,4 +33,6 @@ The application consists of several key components:
 
 6. **Bill Menu**
    - Contains buttons to calculate totals, generate the bill, clear the bill area, and exit the application.
+![billing](https://github.com/user-attachments/assets/39695020-c0e3-47bf-8cbf-2b99bdf049ac)
+[README.md](https://github.com/user-attachments/files/16818049/README.md)
 
